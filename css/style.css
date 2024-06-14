@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+.halaman {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #000000;
+	font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+.halaman {
+  background: #ffffff;
+}
+
+.header,
+.footer,
+.menu-atas,
+.halaman1,
+.halaman1 .isi,
+.halaman1 .menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-atas > ul > li > a {
+	text-decoration: none;
+	color: #000;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.login-con-btn {
+	width: fit-content;
+	background-color: black;
+	padding: 7px 20px;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-btn {
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0c3;
+}
+
+/* Logo */
+.logo {
+  padding: 10px;
+  width: auto;
+  float: left;
+}
+.logo h1 a,
+h1 a:hover {
+  color: #0c3;
+  text-decoration: none;
+}
+.logo h1 span {
+  color: #f2f200;
+}
+
+/* Header */
+.header {
+  background: #eee;
+
+}
+.isi-header {
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin: 0 auto;
+  padding: 10px 60px;
+  width: 100%;
+  background: #ffffff;
+  transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+.isi-header.scroll {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Background blur effect */
+}
+
+
+
+/* Judul */
+.judul {
+  background: #eee;
+  padding: 0;
+}
+.isi-judul {
+  margin: auto;
+  padding: 5px;
+  width: 980px;
+  background: #4376AF;
+}
+.isi-judul h1 {
+  color: #000;
+  font-size: 32px;
+}
+
+/* Menu */
+.menu-atas ul {
+	display: flex;
+	gap: 16px;
+  list-style: none;
+  padding: 0;
+
+}
+
+.menu-atas ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-atas ul li.active a,
+.menu-atas ul li a:hover {
+  color: #0c3;
+}
+
+/* Halaman */
+
+.kotak-user-index {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selamat-datang-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.menu-ruangan-index {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.isi-halaman {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+  margin-left: 45px;
+}
+
+.isi-halaman > .hero-container-index {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0px;
+	gap: 32px;
+  margin-top: 32px auto;
+}
+
+.welcoming {
+  width: 420px;
+}
+
+.welcoming-headline {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.welcoming > .welcoming-headline > h1 {
+	font-size: 34px;
+  line-height: 38px;
+	font-weight: 600;
+}
+
+.welcoming > p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.welcoming-text1 {
+  width: fit-content;
+  padding: 5px 12px;
+  background-color: #f1da9f;
+  color: #866a21;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 12px;
+
+}
+
+.welcoming-img {
+	width: 450px;
+}
+
+.welcoming-img > img {
+	width: 100%;
+}
+
+.welcoming-btn {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-login-welcoming {
+  padding: 7px 20px;
+  background-color: #f1da9f;
+  color: #866a21;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 12px;
+}
+
+.btn-pilih-ruangan {
+  width: fit-content;
+  padding: 7px 20px;
+  background-color: #f1da9f;
+  color: #866a21;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 12px;
+  margin: 12px auto;
+}
+
+.btn-regis-welcoming {
+  padding: 7px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 12px;
+}
+
+.artikel {
+  width: 710px;
+}
+
+
+.halaman1 {
+	padding: 30px 0;
+
+}
+
+.login-form-form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.login-form-form > p {
+  font-size: 14px;
+}
+
+#register-link {
+  text-decoration: underline;
+}
+
+
+.login-daftar-main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+  margin-top: 20px;
+}
+
+.login-con {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  padding: 32px 40px;
+}
+
+.login-form-inti {
+  display: block;
+}
+
+.register-form-inti {
+  display: none;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 36px;
+}
+
+.login-form-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-form-header > h1{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.login-form-header > p{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.logo-login-form {
+	display: flex;
+  width: 32px;
+	justify-content: center;
+  align-items: center;
+	margin-bottom: 12px;
+}
+
+.logo-login-form > img {
+  width: 100%;
+}
+
+/*tabel */
+.tabel {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.td1,
+.th1 {
+  border: 1px solid transparent;
+  height: 30px;
+  padding: 5px;
+}
+.th1 {
+  background: #dfdfdf;
+  font-weight: bold;
+}
+.td2 {
+  background: white;
+}
+.tr1:hover {
+  background: #f1f1f1;
+}
+.td2 .th2 {
+  background: #fff;
+}
+
+/*from */
+.kotak {
+  width: 100%;
+  padding: 6px 25px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.kotak:hover {
+  border: 1px solid #0c3;
+}
+/* .filset {
+  border: 2px solid green;
+  padding: 10px;
+} */
+/*button{ background-color: #3333ff; color: white; padding: 14px 20px; margin: 5px 0; cursor: pointer; width: 100% } */
+
+/* Footer1 */
+.footer1 {
+  background: #eee;
+  color: #000;
+}
+.isi-footer1 {
+  margin: 0 auto;
+  width: 970px;
+  padding: 10px;
+  background: #4376AF;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.footer1 .column {
+  margin: 0;
+  text-align: justify;
+  float: left;
+  width: 250px;
+  padding: 0 24px;
+}
+
+/* Footer */
+.footer {
+  background: #eee;
+}
+.isi-footer {
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  width: 970px;
+}
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #dd0;
+  text-decoration: none;
+}
+
+/* hapus  */
+.hapus {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+/*form */
+
+input {
+	border-radius: 12px;
+}
+
+.btn-login {
+	background-color: #4376AF;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	width: 30%;
+}
+
+.btn-login-con {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.hero-chart {
+  width: 800px;
+  display: flex;
+  margin: 100px auto;
+
+}
+
+.chart-container-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chart-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
